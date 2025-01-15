@@ -18,8 +18,8 @@
         <tbody>
             <tr th:each="stat : ${stats}">
                 <th th:text="${stat.getDisplayName()}"></th>
-                <td th:each="s, rowSet : ${stats}"
-                    th:text="${}">
+                <td th:each="s : ${stats}"
+                    th:text="${stat.getPercentAgainstPlayer(s) == -1.0 ? '-' : (stat.getPercentAgainstPlayer(s) + '%')}">
                 </td>
             </tr>
         </tbody>

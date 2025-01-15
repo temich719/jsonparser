@@ -18,6 +18,24 @@ public class Player {
         this.stats = new HashMap<>();
     }
 
+    public Double getPercentAgainstPlayer(Player player) {
+        System.out.println();
+        System.out.println();
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&");
+        System.out.println(this.toString());
+        System.out.println(player.toString());
+        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&");
+        if (!this.stats.containsKey(player) || this.equals(player)) {
+            System.out.println("-1");
+            return -1.0;
+        } else {
+            Stats s = this.stats.get(player);
+            System.out.println("&&&&&&&&&");
+            System.out.println(s.toString());
+            return Double.valueOf(s.getWin()) / Double.valueOf(s.getTotal()) * 100;
+        }
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;

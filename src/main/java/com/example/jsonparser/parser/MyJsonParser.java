@@ -35,29 +35,20 @@ public class MyJsonParser {
     private void addOpponentAndStatsToPlayer(Player player, Player opponent, Stats stats) {
         Map<Player, Stats> playerStatsMap = player.getStats();
         if (playerStatsMap.containsKey(opponent)) {
-            System.out.println("con key");
             Stats old = playerStatsMap.get(opponent);
             old.addWins(stats.getWin());
             old.addDraws(stats.getDraw());
             old.addLoses(stats.getLose());
         } else {
-            System.out.println("not con key");
             playerStatsMap.put(opponent, stats);
         }
     }
 
     private void updatePlayerAndOppStats(Player player, Player opponent, Stats stats, List<Player> players) {
-        System.out.println("---------------------");
-        System.out.println(player.toString());
-        System.out.println(opponent.toString());
-        System.out.println(stats.toString());
-        System.out.println("---------------------");
         if (players.contains(player)) {
-            System.out.println("con");
             Player existing = players.get(players.indexOf(player));
             addOpponentAndStatsToPlayer(existing, opponent, stats);
         } else {
-            System.out.println("not con");
             addOpponentAndStatsToPlayer(player, opponent, stats);
             players.add(player);
         }
@@ -99,8 +90,6 @@ public class MyJsonParser {
                                                                    username = jsonParser.getText();
                                                                 }
                                                             }
-                                                            //System.out.println("display: " + displayName);
-                                                            //System.out.println("username: " + username);
                                                             if (first) {
                                                                 player1 = new Player();
                                                                 player1.setDisplayName(displayName);
@@ -112,8 +101,6 @@ public class MyJsonParser {
                                                                 player2.setUsername(username);
                                                                 first = true;
                                                             }
-                                                            //System.out.println("in 1: " + player1);
-                                                            //System.out.println("in 2: " + player2);
                                                         }
                                                     }
                                                 }
@@ -126,42 +113,18 @@ public class MyJsonParser {
                                     resultString = jsonParser.getText();
                                 }
                             }
-                            System.out.println("pla1" + player1);
-                            System.out.println("pla2" + player2);
-                            System.out.println("rees str = " + resultString);
                             String[] strings = resultString.split(" ");
                             System.out.println("string[0]: " + strings[0]);
                             String[] wdl = strings[strings.length - 1].split("-");
-                            System.out.println("wdl[0]: " + wdl[0]);
                             Stats s = new Stats(Integer.parseInt(wdl[0]), Integer.parseInt(wdl[1]), Integer.parseInt(wdl[2]));
                             Stats reverse = new Stats(Integer.parseInt(wdl[2]), Integer.parseInt(wdl[1]), Integer.parseInt(wdl[0]));
-                            //System.out.println("disdis: " + player1.getDisplayName());
                             if (resultString.startsWith(player1.getDisplayName())) {
-                                System.out.println("first won");
                                 updatePlayerAndOppStats(player1, player2, s, players);
                                 updatePlayerAndOppStats(player2, player1, reverse, players);
                             } else {
-                                System.out.println("second won");
                                 updatePlayerAndOppStats(player2, player1, s, players);
                                 updatePlayerAndOppStats(player1, player2, reverse, players);
                             }
-                            /*if ("ResultString".equals(jsonParser.getText())) {
-                                jsonParser.nextToken();
-                                String resultStr = jsonParser.getText();
-                                System.out.println("rees str = " + resultStr);
-                                String[] strings = resultStr.split(" ");
-                                String[] wdl = strings[strings.length - 1].split("-");
-                                Stats s = new Stats(Integer.parseInt(wdl[0]), Integer.parseInt(wdl[1]), Integer.parseInt(wdl[2]));
-                                Stats reverse = new Stats(Integer.parseInt(wdl[2]), Integer.parseInt(wdl[1]), Integer.parseInt(wdl[0]));
-                                System.out.println("disdis: " + player1.getDisplayName());
-                                if (resultStr.startsWith(player1.getDisplayName())) {
-                                    updatePlayerAndOppStats(player1, player2, s, players);
-                                    updatePlayerAndOppStats(player2, player1, reverse, players);
-                                } else {
-                                    updatePlayerAndOppStats(player2, player1, s, players);
-                                    updatePlayerAndOppStats(player1, player2, reverse, players);
-                                }
-                            }*/
                         }
                     }
                 }
