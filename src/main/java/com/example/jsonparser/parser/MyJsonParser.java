@@ -36,11 +36,23 @@ public class MyJsonParser {
         Map<Player, Stats> playerStatsMap = player.getStats();
         if (playerStatsMap.containsKey(opponent)) {
             Stats old = playerStatsMap.get(opponent);
-            old.addWins(stats.getWin());
-            old.addDraws(stats.getDraw());
-            old.addLoses(stats.getLose());
+            if (stats.getWin().equals(stats.getLose())) {
+                old.addDraws(1);
+            } else if (stats.getWin() > stats.getLose()) {
+                old.addWins(1);
+            } else {
+                old.addLoses(1);
+            }
         } else {
-            playerStatsMap.put(opponent, stats);
+            Stats initSt = new Stats();
+            if (stats.getWin().equals(stats.getLose())) {
+                initSt.addDraws(1);
+            } else if (stats.getWin() > stats.getLose()) {
+                initSt.addWins(1);
+            } else {
+                initSt.addLoses(1);
+            }
+            playerStatsMap.put(opponent, initSt);
         }
     }
 
@@ -114,10 +126,17 @@ public class MyJsonParser {
                                 }
                             }
                             String[] strings = resultString.split(" ");
-                            System.out.println("string[0]: " + strings[0]);
-                            String[] wdl = strings[strings.length - 1].split("-");
-                            Stats s = new Stats(Integer.parseInt(wdl[0]), Integer.parseInt(wdl[1]), Integer.parseInt(wdl[2]));
-                            Stats reverse = new Stats(Integer.parseInt(wdl[2]), Integer.parseInt(wdl[1]), Integer.parseInt(wdl[0]));
+                            String[] wdl;
+                            if (strings.length == 2) {
+                                wdl = strings[0].split("-");
+                            } else if (strings[strings.length - 1].equals("bye")) {
+                                continue;
+                            } else {
+                                wdl = strings[strings.length - 1].split("-");
+                            }
+                            //w-l-d           w-d-l
+                            Stats s = new Stats(Integer.parseInt(wdl[0]), Integer.parseInt(wdl[2]), Integer.parseInt(wdl[1]));
+                            Stats reverse = new Stats(Integer.parseInt(wdl[1]), Integer.parseInt(wdl[2]), Integer.parseInt(wdl[0]));
                             if (resultString.startsWith(player1.getDisplayName())) {
                                 updatePlayerAndOppStats(player1, player2, s, players);
                                 updatePlayerAndOppStats(player2, player1, reverse, players);

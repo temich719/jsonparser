@@ -2,6 +2,7 @@ package com.example.jsonparser.model;
 
 import lombok.Getter;
 
+import java.text.DecimalFormat;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -32,8 +33,24 @@ public class Player {
             Stats s = this.stats.get(player);
             System.out.println("&&&&&&&&&");
             System.out.println(s.toString());
-            return Double.valueOf(s.getWin()) / Double.valueOf(s.getTotal()) * 100;
+            double p = Double.valueOf(s.getWin()) / Double.valueOf(s.getTotal()) * 100;
+            DecimalFormat df = new DecimalFormat("#.00");
+            String formatted_p = df.format(p);
+            return Double.parseDouble(formatted_p);
         }
+    }
+
+    public Double getTotalWinRate() {
+        double winCount = 0.0;
+        double totalCount = 0.0;
+        for (Stats s : this.getStats().values()) {
+            winCount += s.getWin();
+            totalCount += s.getTotal();
+        }
+        double ans = Double.valueOf(winCount) / Double.valueOf(totalCount) * 100;
+        DecimalFormat df = new DecimalFormat("#.00");
+        String formatted_ans = df.format(ans);
+        return Double.parseDouble(formatted_ans);
     }
 
     @Override

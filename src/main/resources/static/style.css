@@ -31,3 +31,23 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
+.lowRate {
+    color: red !important;
+}
+
+.noob {
+    color: rgb(208, 219, 60) !important;
+}
+
+.middle {
+    color: green !important;
+}
+
+.hard {
+    color: purple !important;
+}
+
+.pro {
+    color: rgb(5, 141, 141) !important;
+}

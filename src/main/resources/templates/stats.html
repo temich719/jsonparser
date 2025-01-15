@@ -13,14 +13,20 @@
             <td th:each="stat : ${stats}"
                 th:text="${stat.getDisplayName()}" style="background-color: #4CAF50; color: white">
             </td>
+            <th th:text="WinRate" style="background-color: white; color: black;"></th>
         </tr>
         </thead>
         <tbody>
             <tr th:each="stat : ${stats}">
                 <th th:text="${stat.getDisplayName()}"></th>
                 <td th:each="s : ${stats}"
-                    th:text="${stat.getPercentAgainstPlayer(s) == -1.0 ? '-' : (stat.getPercentAgainstPlayer(s) + '%')}">
+                    th:text="${stat.getPercentAgainstPlayer(s) == -1.0 ? '-' : (stat.getPercentAgainstPlayer(s) + '%')}"
+                    th:class="${stat.getPercentAgainstPlayer(s) < 40 ? 'lowRate' : (stat.getPercentAgainstPlayer(s) < 50 ? 'noob' : (stat.getPercentAgainstPlayer(s) < 60 ? 'middle' : (stat.getPercentAgainstPlayer(s) < 75 ? 'hard' : 'pro')))}">
                 </td>
+                <th style="background-color: whitesmoke;" 
+                    th:text="${stat.getTotalWinRate() + '%'}"
+                    th:class="${stat.getTotalWinRate() < 40 ? 'lowRate' : (stat.getTotalWinRate() < 50 ? 'noob' : (stat.getTotalWinRate() < 60 ? 'middle' : (stat.getTotalWinRate() < 75 ? 'hard' : 'pro')))}"></th>
+                </th>
             </tr>
         </tbody>
     </table>
