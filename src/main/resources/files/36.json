@@ -1,0 +1,908 @@
+{
+    "draw": 11,
+    "recordsTotal": 10,
+    "recordsFiltered": 10,
+    "data": [
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981854,
+                                "ID": 981851,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "wwwcardPrince18",
+                                "DisplayNameLastFirst": "wwwcardPrince18",
+                                "Username": "wwwcardPrince18",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981854,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329157,
+                    "CheckedIn": "2024-03-05T19:30:37",
+                    "ResultConfirmed": "2024-03-05T19:30:37",
+                    "SortOrder": 0,
+                    "GameByes": 2,
+                    "GameWins": 0,
+                    "TeamId": 981854,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": 0,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": null,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "d5717f10-ba3f-4378-b428-b12a0141856c",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": "Algorithm Assigned",
+            "LossReasonDescription": null,
+            "ResultString": "wwwcardPrince18 was assigned a bye",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": null,
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981864,
+                                "ID": 981861,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 1,
+                                "DisplayName": "OMGProfunny",
+                                "DisplayNameLastFirst": "OMGProfunny",
+                                "Username": "OMGProfunny",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981864,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329158,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981864,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981875,
+                                "ID": 981872,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Aleksei Raptunovich",
+                                "DisplayNameLastFirst": "Raptunovich, Aleksei",
+                                "Username": "Alex88",
+                                "LanguageDescription": "русский (Russian)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981875,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833190,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 981875,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 1,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "f35498ed-aae6-4129-a0d3-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "OMGProfunny won 2-1-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "1",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981856,
+                                "ID": 981853,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 3,
+                                "DisplayName": "NickLatkovich",
+                                "DisplayNameLastFirst": "NickLatkovich",
+                                "Username": "NickLatkovich",
+                                "LanguageDescription": "English (English)",
+                                "PronounsDescription": "He/Him"
+                            }
+                        ],
+                        "ID": 981856,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329159,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 0,
+                    "TeamId": 981856,
+                    "GameWinsAndGameByes": 0,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981848,
+                                "ID": 981845,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "vorotinskyV",
+                                "DisplayNameLastFirst": "vorotinskyV",
+                                "Username": "vorotinskyV",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981848,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833191,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981848,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 2,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "6b1508e5-e974-459e-8cd7-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "vorotinskyV won 2-0-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "2",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981860,
+                                "ID": 981857,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "GlebK",
+                                "DisplayNameLastFirst": "GlebK",
+                                "Username": "GlebK",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981860,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329160,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 981860,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981879,
+                                "ID": 981876,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Dzianis Chuyanau",
+                                "DisplayNameLastFirst": "Chuyanau, Dzianis",
+                                "Username": "AnklDen",
+                                "LanguageDescription": "English (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981879,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833192,
+                    "CheckedIn": null,
+                    "ResultConfirmed": "2024-03-05T20:20:58",
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981879,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 3,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "55a7c914-be20-42bc-81c0-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "Dzianis Chuyanau won 2-1-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "3",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981876,
+                                "ID": 981873,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 1,
+                                "DisplayName": "Egor Kryshkavets",
+                                "DisplayNameLastFirst": "Kryshkavets, Egor",
+                                "Username": "Damingez",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": "He/Him"
+                            }
+                        ],
+                        "ID": 981876,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329161,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 0,
+                    "TeamId": 981876,
+                    "GameWinsAndGameByes": 0,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981863,
+                                "ID": 981860,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 1,
+                                "DisplayName": "Роман Кохан",
+                                "DisplayNameLastFirst": "Кохан, Роман",
+                                "Username": "RomanKohan14",
+                                "LanguageDescription": "English (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981863,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833193,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981863,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 4,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "7edf3a84-df26-4475-a1dd-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "Роман Кохан won 2-0-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "4",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981874,
+                                "ID": 981871,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Maksim Martseniuk",
+                                "DisplayNameLastFirst": "Martseniuk, Maksim",
+                                "Username": "qvertion",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981874,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329162,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 0,
+                    "TeamId": 981874,
+                    "GameWinsAndGameByes": 0,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981870,
+                                "ID": 981867,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "[OMG]Summie",
+                                "DisplayNameLastFirst": "[OMG]Summie",
+                                "Username": "[OMG]Summie",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981870,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833194,
+                    "CheckedIn": null,
+                    "ResultConfirmed": "2024-04-23T15:59:57",
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 981870,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-23T15:59:57",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 5,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "280ba174-0fc3-44de-8270-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "[OMG]Summie won 1-0-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "5",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981871,
+                                "ID": 981868,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Denis Prokofiev",
+                                "DisplayNameLastFirst": "Prokofiev, Denis",
+                                "Username": "Prokis",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981871,
+                        "Name": null,
+                        "StatusDescription": "Dropped (Staff)",
+                        "IsActive": false
+                    },
+                    "ID": 1329163,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 0,
+                    "TeamId": 981871,
+                    "GameWinsAndGameByes": 0,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981859,
+                                "ID": 981856,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 1,
+                                "DisplayName": "AndreyG",
+                                "DisplayNameLastFirst": "AndreyG",
+                                "Username": "AndreyG",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981859,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833195,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981859,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 6,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "3e4155b1-ed95-4285-b038-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "AndreyG won 2-0-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "6",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981852,
+                                "ID": 981849,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Илья Лашкин",
+                                "DisplayNameLastFirst": "Лашкин, Илья",
+                                "Username": "SoXa",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981852,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329164,
+                    "CheckedIn": null,
+                    "ResultConfirmed": "2024-03-05T20:01:32",
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981852,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981850,
+                                "ID": 981847,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 2,
+                                "DisplayName": "Alexsandr  Golovskiy",
+                                "DisplayNameLastFirst": "Golovskiy, Alexsandr ",
+                                "Username": "Sasha33",
+                                "LanguageDescription": "русский (Russian)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981850,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833196,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 0,
+                    "TeamId": 981850,
+                    "GameWinsAndGameByes": 0,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 7,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "f2f4798b-4570-436c-8184-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "Илья Лашкин won 2-0-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "7",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981853,
+                                "ID": 981850,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Akel",
+                                "DisplayNameLastFirst": "Akel",
+                                "Username": "Akel",
+                                "LanguageDescription": "русский (Russian)",
+                                "PronounsDescription": "He/Him"
+                            }
+                        ],
+                        "ID": 981853,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329165,
+                    "CheckedIn": null,
+                    "ResultConfirmed": "2024-03-05T20:30:53",
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981853,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981793,
+                                "ID": 981790,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "ispinyouround",
+                                "DisplayNameLastFirst": "ispinyouround",
+                                "Username": "ispinyouround",
+                                "LanguageDescription": "English (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981793,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833197,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 981793,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 8,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "d1cf22c3-5a44-42d3-8f2c-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "Akel won 2-1-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "8",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981868,
+                                "ID": 981865,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Yauheni Ihnatsik",
+                                "DisplayNameLastFirst": "Ihnatsik, Yauheni",
+                                "Username": "McRais",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981868,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1329166,
+                    "CheckedIn": null,
+                    "ResultConfirmed": "2024-03-05T20:23:04",
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 981868,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 981838,
+                                "ID": 981835,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Петр Кулыба",
+                                "DisplayNameLastFirst": "Кулыба, Петр",
+                                "Username": "Ifrit56",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 981838,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2833198,
+                    "CheckedIn": null,
+                    "ResultConfirmed": "2024-03-05T20:23:04",
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 981838,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 4,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 9,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 61841,
+            "RoundId": 219233,
+            "TournamentId": 65519,
+            "Format": "Standard",
+            "Guid": "8b94c299-f60a-4028-aaed-b12a01418571",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "Петр Кулыба won 2-1-0",
+            "RoundDescription": "Round 4",
+            "TableNumberDescription": "9",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Standard"
+        }
+    ],
+    "download": null
+}

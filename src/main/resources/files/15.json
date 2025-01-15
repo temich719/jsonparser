@@ -1,0 +1,536 @@
+{
+    "draw": 6,
+    "recordsTotal": 6,
+    "recordsFiltered": 6,
+    "data": [
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889345,
+                                "ID": 889342,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Илья Лашкин",
+                                "DisplayNameLastFirst": "Лашкин, Илья",
+                                "Username": "SoXa",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889345,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1183778,
+                    "CheckedIn": "2024-01-30T18:26:50",
+                    "ResultConfirmed": "2024-01-30T18:26:50",
+                    "SortOrder": 0,
+                    "GameByes": 2,
+                    "GameWins": 0,
+                    "TeamId": 889345,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": 0,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 3,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": null,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 54848,
+            "RoundId": 195603,
+            "TournamentId": 57760,
+            "Format": "Pioneer",
+            "Guid": "924e1819-1e01-43cc-bbc3-b10701300047",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": "Algorithm Assigned",
+            "LossReasonDescription": null,
+            "ResultString": "Илья Лашкин was assigned a bye",
+            "RoundDescription": "Round 3",
+            "TableNumberDescription": null,
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Pioneer"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889329,
+                                "ID": 889326,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Dzianis Chuyanau",
+                                "DisplayNameLastFirst": "Chuyanau, Dzianis",
+                                "Username": "AnklDen",
+                                "LanguageDescription": "English (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889329,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1183779,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 889329,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889342,
+                                "ID": 889339,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 3,
+                                "DisplayName": "NickLatkovich",
+                                "DisplayNameLastFirst": "NickLatkovich",
+                                "Username": "NickLatkovich",
+                                "LanguageDescription": "English (English)",
+                                "PronounsDescription": "He/Him"
+                            }
+                        ],
+                        "ID": 889342,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2696324,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 889342,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 3,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 1,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 54848,
+            "RoundId": 195603,
+            "TournamentId": 57760,
+            "Format": "Pioneer",
+            "Guid": "ac3c4913-749c-4e36-9622-b1070130004c",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "1-1-0 Draw",
+            "RoundDescription": "Round 3",
+            "TableNumberDescription": "1",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Pioneer"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889330,
+                                "ID": 889327,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "[OMG]Summie",
+                                "DisplayNameLastFirst": "[OMG]Summie",
+                                "Username": "[OMG]Summie",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889330,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1183780,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 889330,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889334,
+                                "ID": 889331,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Maksim Martseniuk",
+                                "DisplayNameLastFirst": "Martseniuk, Maksim",
+                                "Username": "qvertion",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889334,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2696325,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 0,
+                    "TeamId": 889334,
+                    "GameWinsAndGameByes": 0,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 3,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 2,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 54848,
+            "RoundId": 195603,
+            "TournamentId": 57760,
+            "Format": "Pioneer",
+            "Guid": "1f51846d-8295-4482-84db-b1070130004c",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "[OMG]Summie won 2-0-0",
+            "RoundDescription": "Round 3",
+            "TableNumberDescription": "2",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Pioneer"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889335,
+                                "ID": 889332,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Akel",
+                                "DisplayNameLastFirst": "Akel",
+                                "Username": "Akel",
+                                "LanguageDescription": "русский (Russian)",
+                                "PronounsDescription": "He/Him"
+                            }
+                        ],
+                        "ID": 889335,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1183781,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 889335,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889344,
+                                "ID": 889341,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "GlebK",
+                                "DisplayNameLastFirst": "GlebK",
+                                "Username": "GlebK",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889344,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2696326,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 889344,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 3,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 3,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 54848,
+            "RoundId": 195603,
+            "TournamentId": 57760,
+            "Format": "Pioneer",
+            "Guid": "a98ae723-dbcd-4fef-aee5-b1070130004c",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "GlebK won 2-1-0",
+            "RoundDescription": "Round 3",
+            "TableNumberDescription": "3",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Pioneer"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889324,
+                                "ID": 889321,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Slava Belezeko",
+                                "DisplayNameLastFirst": "Belezeko, Slava",
+                                "Username": "Slava_bel",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889324,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1183782,
+                    "CheckedIn": null,
+                    "ResultConfirmed": "2024-01-30T18:58:05",
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 889324,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889337,
+                                "ID": 889334,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 1,
+                                "DisplayName": "Роман Кохан",
+                                "DisplayNameLastFirst": "Кохан, Роман",
+                                "Username": "RomanKohan14",
+                                "LanguageDescription": "English (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889337,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 2696327,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 1,
+                    "TeamId": 889337,
+                    "GameWinsAndGameByes": 1,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 3,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 4,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 54848,
+            "RoundId": 195603,
+            "TournamentId": 57760,
+            "Format": "Pioneer",
+            "Guid": "7cc361b8-a9a8-43c0-a04a-b1070130004c",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "Slava Belezeko won 2-1-0",
+            "RoundDescription": "Round 3",
+            "TableNumberDescription": "4",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Pioneer"
+        },
+        {
+            "Competitors": [
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889327,
+                                "ID": 889324,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 1,
+                                "DisplayName": "OMGProfunny",
+                                "DisplayNameLastFirst": "OMGProfunny",
+                                "Username": "OMGProfunny",
+                                "LanguageDescription": "Auto (English)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889327,
+                        "Name": null,
+                        "StatusDescription": "Active",
+                        "IsActive": true
+                    },
+                    "ID": 1183783,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 0,
+                    "GameByes": 0,
+                    "GameWins": 2,
+                    "TeamId": 889327,
+                    "GameWinsAndGameByes": 2,
+                    "Decklists": []
+                },
+                {
+                    "Team": {
+                        "Players": [
+                            {
+                                "TeamId": 889346,
+                                "ID": 889343,
+                                "ScreenName": "N/A",
+                                "ProfileImageVersion": 0,
+                                "DisplayName": "Aleksei Raptunovich",
+                                "DisplayNameLastFirst": "Raptunovich, Aleksei",
+                                "Username": "Alex88",
+                                "LanguageDescription": "русский (Russian)",
+                                "PronounsDescription": null
+                            }
+                        ],
+                        "ID": 889346,
+                        "Name": null,
+                        "StatusDescription": "Dropped (Staff)",
+                        "IsActive": false
+                    },
+                    "ID": 2696328,
+                    "CheckedIn": null,
+                    "ResultConfirmed": null,
+                    "SortOrder": 1,
+                    "GameByes": 0,
+                    "GameWins": 0,
+                    "TeamId": 889346,
+                    "GameWinsAndGameByes": 0,
+                    "Decklists": []
+                }
+            ],
+            "ByeReason": null,
+            "LossReason": null,
+            "RoundName": null,
+            "DateCreated": "2024-04-19T13:22:21",
+            "Type": 0,
+            "FeatureMatch": false,
+            "HasResult": true,
+            "TimeExtended": false,
+            "MatchesPublished": true,
+            "RoundNumber": 3,
+            "GameDraws": 0,
+            "PodNumber": null,
+            "SortOrder": null,
+            "TableNumber": 5,
+            "TimeExtensionMinutes": null,
+            "PhaseId": 54848,
+            "RoundId": 195603,
+            "TournamentId": 57760,
+            "Format": "Pioneer",
+            "Guid": "10ce169f-3244-41dd-8fae-b1070130004c",
+            "TableLocation": null,
+            "TableSection": null,
+            "ByeReasonDescription": null,
+            "LossReasonDescription": null,
+            "ResultString": "OMGProfunny won 2-0-0",
+            "RoundDescription": "Round 3",
+            "TableNumberDescription": "5",
+            "TypeDescription": "Best of Three",
+            "FormatDescription": "Pioneer"
+        }
+    ],
+    "download": null
+}
