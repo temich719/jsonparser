@@ -1,5 +1,6 @@
 package com.example.jsonparser.parser;
 
+import com.example.jsonparser.exception.CustomParseException;
 import com.example.jsonparser.model.Player;
 import com.example.jsonparser.model.Stats;
 import com.fasterxml.jackson.core.JsonFactory;
@@ -18,11 +19,20 @@ import java.util.Objects;
 public class MyJsonParser {
 
     private static final String TARGET_FOLDER_PATH = "src/main/resources/files";
+    private static final String JSON_EXT = ".json";
+    private static final String DATA = "data";
+    private static final String COMPETITORS = "Competitors";
+    private static final String TEAM = "Team";
+    private static final String PLAYERS = "Players";
+    private static final String DISPLAY_NAME = "DisplayName";
+    private static final String USERNAME = "Username";
+    private static final String RESULT_STRING = "ResultString";
+    private static final String BYE = "bye";
 
-    public List<Player> parseTable() {
+    public List<Player> parseTable() throws CustomParseException {
         List<Player> players = new ArrayList<>();
         File folder = new File(TARGET_FOLDER_PATH);
-        File[] files = folder.listFiles((dir, name) -> name.endsWith(".json"));
+        File[] files = folder.listFiles((dir, name) -> name.endsWith(JSON_EXT));
         if (Objects.nonNull(files)) {
             for (File file : files) {
                 readJsonFile(file, players);
@@ -66,14 +76,14 @@ public class MyJsonParser {
         }
     }
 
-    private void readJsonFile(File file, List<Player> players) {
+    private void readJsonFile(File file, List<Player> players) throws CustomParseException {
         JsonFactory jsonFactory = new JsonFactory();
         try (JsonParser jsonParser = jsonFactory.createParser(file)) {
             while (!jsonParser.isClosed()) {
                 JsonToken token = jsonParser.nextToken();
                 if (JsonToken.FIELD_NAME.equals(token)) {
                     String fieldName = jsonParser.getText();
-                    if ("data".equals(fieldName)) {
+                    if (DATA.equals(fieldName)) {
                         jsonParser.nextToken();
                         Player player1 = new Player();
                         Player player2 = new Player();
@@ -83,21 +93,21 @@ public class MyJsonParser {
                         while (jsonParser.nextToken() != JsonToken.END_ARRAY) {
                             while (jsonParser.nextToken() != JsonToken.END_OBJECT) {
                                 boolean first = true;
-                                if ("Competitors".equals(jsonParser.getText())) {
+                                if (COMPETITORS.equals(jsonParser.getText())) {
                                     jsonParser.nextToken();
                                     while (jsonParser.nextToken() != JsonToken.END_ARRAY) {
                                         while (jsonParser.nextToken() != JsonToken.END_OBJECT) {
-                                            if ("Team".equals(jsonParser.getText())) {
+                                            if (TEAM.equals(jsonParser.getText())) {
                                                 jsonParser.nextToken();
                                                 while (jsonParser.nextToken() != JsonToken.END_OBJECT) {
-                                                    if ("Players".equals(jsonParser.getText())) {
+                                                    if (PLAYERS.equals(jsonParser.getText())) {
                                                         jsonParser.nextToken();
                                                         while (jsonParser.nextToken() != JsonToken.END_ARRAY) {
                                                             while (jsonParser.nextToken() != JsonToken.END_OBJECT) {
-                                                                if ("DisplayName".equals(jsonParser.getText())) {
+                                                                if (DISPLAY_NAME.equals(jsonParser.getText())) {
                                                                     jsonParser.nextToken();
                                                                     displayName = jsonParser.getText();
-                                                                } else if ("Username".equals(jsonParser.getText())) {
+                                                                } else if (USERNAME.equals(jsonParser.getText())) {
                                                                    jsonParser.nextToken();
                                                                    username = jsonParser.getText();
                                                                 }
@@ -120,7 +130,7 @@ public class MyJsonParser {
                                         }
                                     }
                                 }
-                                if ("ResultString".equals(jsonParser.getText())) {
+                                if (RESULT_STRING.equals(jsonParser.getText())) {
                                     jsonParser.nextToken();
                                     resultString = jsonParser.getText();
                                 }
@@ -129,7 +139,7 @@ public class MyJsonParser {
                             String[] wdl;
                             if (strings.length == 2) {
                                 wdl = strings[0].split("-");
-                            } else if (strings[strings.length - 1].equals("bye")) {
+                            } else if (strings[strings.length - 1].equals(BYE)) {
                                 continue;
                             } else {
                                 wdl = strings[strings.length - 1].split("-");
@@ -149,6 +159,7 @@ public class MyJsonParser {
             }
         } catch (IOException e) {
             System.out.println("bad parse");
+            throw new CustomParseException("Something went wrong while parsing json");
         }
     }
 

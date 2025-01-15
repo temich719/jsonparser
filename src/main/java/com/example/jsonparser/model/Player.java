@@ -12,6 +12,7 @@ public class Player {
     private String displayName;
     private String username;
     private final Map<Player, Stats> stats;
+    private static final String FORMAT = "#.0";
 
     public Player(final String displayName, final String username) {
         this.username = username;

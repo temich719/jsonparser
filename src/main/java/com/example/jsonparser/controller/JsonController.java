@@ -1,5 +1,6 @@
 package com.example.jsonparser.controller;
 
+import com.example.jsonparser.exception.CustomParseException;
 import com.example.jsonparser.model.Player;
 import com.example.jsonparser.parser.MyJsonParser;
 import com.example.jsonparser.util.TopLadder;
@@ -28,10 +29,10 @@ public class JsonController {
 
     @GetMapping(value = "/api/" + STATS, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseStatus(HttpStatus.OK)
-    public String getPlayers(Model model) {
+    public String getPlayers(Model model) throws CustomParseException {
         List<Player> ans = myJsonParser.parseTable();
         List<Player> topLadderPlayers = ans.stream()
-                                            .filter(el -> isTopLadder(el))
+                                            .filter(this::isTopLadder)
                                             .collect(Collectors.toList());
         model.addAttribute(STATS, topLadderPlayers);
         return STATS;
