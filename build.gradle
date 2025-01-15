@@ -34,6 +34,14 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.15.0'
 }
 
+jar {
+    manifest {
+        attributes(
+                'JsonParserApplication': 'com.example.jsonparser.JsonParserApplication'
+        )
+    }
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }
