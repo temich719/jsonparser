@@ -20,19 +20,10 @@ public class Player {
     }
 
     public Double getPercentAgainstPlayer(Player player) {
-        System.out.println();
-        System.out.println();
-        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&");
-        System.out.println(this.toString());
-        System.out.println(player.toString());
-        System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&");
         if (!this.stats.containsKey(player) || this.equals(player)) {
-            System.out.println("-1");
             return -1.0;
         } else {
             Stats s = this.stats.get(player);
-            System.out.println("&&&&&&&&&");
-            System.out.println(s.toString());
             double p = Double.valueOf(s.getWin()) / Double.valueOf(s.getTotal()) * 100;
             DecimalFormat df = new DecimalFormat("#.00");
             String formatted_p = df.format(p);

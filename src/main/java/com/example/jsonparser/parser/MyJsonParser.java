@@ -134,7 +134,6 @@ public class MyJsonParser {
                             } else {
                                 wdl = strings[strings.length - 1].split("-");
                             }
-                            //w-l-d           w-d-l
                             Stats s = new Stats(Integer.parseInt(wdl[0]), Integer.parseInt(wdl[2]), Integer.parseInt(wdl[1]));
                             Stats reverse = new Stats(Integer.parseInt(wdl[1]), Integer.parseInt(wdl[2]), Integer.parseInt(wdl[0]));
                             if (resultString.startsWith(player1.getDisplayName())) {
