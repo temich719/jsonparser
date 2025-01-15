@@ -1,5 +1,8 @@
 package com.example.jsonparser.util;
 
+import lombok.Getter;
+
+@Getter
 public enum TopLadder {
     
     MARTSENIUK("Maksim Martseniuk"),
@@ -22,14 +25,10 @@ public enum TopLadder {
     Ilya_LASHKIN("Илья Лашкин"),
     EGOR_SNYTKO("Egor Snytko");
 
-    String displayName;
+    final String displayName;
 
     TopLadder(String displayName) {
         this.displayName = displayName;
-    }
-
-    public String getDisplayName() {
-        return this.displayName;
     }
 
 }
